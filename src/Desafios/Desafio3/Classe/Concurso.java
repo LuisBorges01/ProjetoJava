@@ -5,51 +5,66 @@ import java.util.Scanner;
 import javax.sound.sampled.SourceDataLine;
 
 public class Concurso {
-    public int codigoDoCurso;
-    public int tamanho = 1;
-    public int[] ArrayPosiçãoCódigoDoCurso = new int[tamanho];
-    public int numeroCanditados;
-    public int totalCandidatosVestibular;
+    public int[] ArrayCodigoDoCurso ;
+    public int condigoDoCurso;
+    public int posicaoCodigo;
+    public int loop;
     public int numeroDeVagas;
+    public int numeroDeCandidatos;
+    public int maiorNumerodeCadidatos;
+    public int maior = 0;
     public int candidatosPorVaga;
-    public int comparador;
+    public int[] cont;
+    public int totalCursos = 0;
+    public int totalCandidatos;
+    public int  media;
+    public int condigoDoCursoMaior;
+
 
     Scanner in = new Scanner(System.in);
     
     public void print(){
-        do{
-            System.out.println("CÓDIGO DO CURSO: ");
-                codigoDoCurso = in.nextInt();
-                this.tamanho = codigoDoCurso;
-            //"-------------------------------"
-            System.out.println("VAGAS PARA O CURSO: ");
-                this.numeroDeVagas = in.nextInt();
-            //"-------------------------------"
-            System.out.println("NÚMERO DE CANDIDATOS: ");
-            this.numeroCanditados = in.nextInt();
-            comparador = numeroCanditados;
-            this.totalCandidatosVestibular = totalCandidatosVestibular + numeroCanditados;
-
-        }while(this.codigoDoCurso != 0);    
-        verificação();
-    }
-
-    public void verificação(){
-        System.out.println("CANDIDADOS TOTAIS: " + totalCandidatosVestibular);
-        //"-----------------------------------------------------------------"
-        this.candidatosPorVaga = (numeroDeVagas / numeroCanditados);
-        if(this.numeroCanditados > comparador){
-            int maior;
-            maior = numeroCanditados;
+       System.out.println("Código do curso: ");
+       condigoDoCurso = in.nextInt();
+       while(condigoDoCurso!=0){
+        System.out.println("Número de vagas: ");
+        numeroDeVagas = in.nextInt();
+        System.out.println("Número de candidatos: ");
+        numeroDeCandidatos =  in.nextInt();
+        candidatosPorVaga =numeroDeCandidatos/numeroDeVagas;
+        System.out.println("Candidatos por vaga: " + candidatosPorVaga);
+        totalCandidatos = totalCandidatos + numeroDeCandidatos;
+        if(numeroDeCandidatos > maior){
+            maior = condigoDoCurso;
         }
+        System.out.println("Código do curso: ");
+        condigoDoCurso = in.nextInt();
 
     }
-
+    System.out.println("===RELATÓRIO VESTIBULAR===");
+    System.out.println("Curso com maior número de candidados por vagas: " + maior);
+    System.out.println("Total de candidatos no vestibular: " + totalCandidatos);
+ }
 }
-
-
 /*
-- Para cada curso, o número de candidatos por vaga;
-- O total de candidatos do vestibular;
-- O código do curso que teve o maior número de candidatos.
+double candivaga,maior=0;
+int codigo, vagas,candidatos,total;
+
+codigo = leiaInt("Codigo do curso:");
+while(codigo!=0)
+{
+vagas= leiaInt("numero de vagas");
+candidatos= leiaInt("quantidade de candidatos:");
+candivaga=(double)candidatos/vagas;
+imprima ("Candidatos por vaga:"+candivaga);
+total=total+candidatos;
+if(candidatos>maior)
+{
+maior=codigo;
+}
+codigo = leiaInt("Codigo do curso:");
+}
+imprima ("O curso que teve mais candidatos por vaga foi:"+maior);
+imprima ("O total de candidatos pro vestibular foi:"+total);
+}
 */
