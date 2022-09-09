@@ -1,0 +1,336 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch desafio17",
+            "request": "launch",
+            "mainClass": "Desafio17.Classes.desafio17",
+            "projectName": "ProjetoJava_131d59d6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Vetores",
+            "request": "launch",
+            "mainClass": "Desafio17.Classes.Vetores",
+            "projectName": "ProjetoJava_131d59d6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Idade",
+            "request": "launch",
+            "mainClass": "Desafio15.Classes.Idade",
+            "projectName": "ProjetoJava_131d59d6"
+        },
+        {
+            "type": "java",
+            "name": "Launch DataSistema",
+            "request": "launch",
+            "mainClass": "Desafio10.Classes.DataSistema",
+            "projectName": "ProjetoJava_131d59d6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Strings",
+            "request": "launch",
+            "mainClass": "Desafio9.Strings",
+            "projectName": "ProjetoJava_131d59d6"
+        },
+        {
+            "type": "java",
+            "name": "Launch EscolaTest",
+            "request": "launch",
+            "mainClass": "Desafio1.Test.EscolaTest",
+            "projectName": "ProjetoJava_131d59d6"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestEscola",
+            "request": "launch",
+            "mainClass": "Desafio1.Test.TestEscola",
+            "projectName": "ProjetoJava_131d59d6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Escola",
+            "request": "launch",
+            "mainClass": "Desafio1.Classe.Escola",
+            "projectName": "ProjetoJava_131d59d6"
+        },
+        {
+            "type": "java",
+            "name": "Launch ClienteTest",
+            "request": "launch",
+            "mainClass": "Depois.Kenumeração.Test.ClienteTest",
+            "projectName": "ProjetoJava_131d59d6"
+        },
+        {
+            "type": "java",
+            "name": "Launch ModificadorFinalTest",
+            "request": "launch",
+            "mainClass": "Depois.Jmodificadorfinal.ModificadorFinal.ModificadorFinalTest",
+            "projectName": "ProjetoJava_131d59d6"
+        },
+        {
+            "type": "java",
+            "name": "Launch PessoaTest",
+            "request": "launch",
+            "mainClass": "Depois.Isobrescrita.PessoaTest",
+            "projectName": "ProjetoJava_131d59d6"
+        },
+        {
+            "type": "java",
+            "name": "Launch HerançaTest",
+            "request": "launch",
+            "mainClass": "Depois.Herança.Herança.HerançaTest",
+            "projectName": "ProjetoJava_131d59d6"
+        },
+        {
+            "type": "java",
+            "name": "Launch FuncionarioTest",
+            "request": "launch",
+            "mainClass": "Aula39Construtor.FuncionarioTest",
+            "projectName": "ProjetoJava_131d59d6"
+        },
+        {
+            "type": "java",
+            "name": "Launch EstudanteTest",
+            "request": "launch",
+            "mainClass": "Estudante.EstudanteTest",
+            "projectName": "ProjetoJava_131d59d6"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExercicioControleFluxo2",
+            "request": "launch",
+            "mainClass": "ExercicioControleFluxo2",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch Aula",
+            "request": "launch",
+            "mainClass": "AulaProfessor.Aula",
+            "projectName": "ProjetoJava_131d59d6"
+        },
+        {
+            "type": "java",
+            "name": "Launch CalculadoraTest",
+            "request": "launch",
+            "mainClass": "Metodos1.CalculadoraTest",
+            "projectName": "ProjetoJava_131d59d6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Arrays3",
+            "request": "launch",
+            "mainClass": "Arrays3",
+            "projectName": "ProjetoJava_131d59d6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Arrays2",
+            "request": "launch",
+            "mainClass": "Arrays2",
+            "projectName": "ProjetoJava_131d59d6"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExercicioWhile",
+            "request": "launch",
+            "mainClass": "ExercicioWhile",
+            "projectName": "ProjetoJava_131d59d6"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExercicioNovo",
+            "request": "launch",
+            "mainClass": "ExercicioNovo",
+            "projectName": "ProjetoJava_131d59d6"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExerciciosDeFluxo",
+            "request": "launch",
+            "mainClass": "ExerciciosDeFluxo",
+            "projectName": "ProjetoJava_131d59d6"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExercicioDeFluxo3",
+            "request": "launch",
+            "mainClass": "ExercicioDeFluxo3",
+            "projectName": "ProjetoJava_131d59d6"
+        },
+        {
+            "type": "java",
+            "name": "Launch EstruturaDeRepeticao",
+            "request": "launch",
+            "mainClass": "EstruturaDeRepeticao",
+            "projectName": "ProjetoJava_131d59d6"
+        },
+        {
+            "type": "java",
+            "name": "Launch EstruturaDeRepetico",
+            "request": "launch",
+            "mainClass": "EstruturaDeRepetico",
+            "projectName": "ProjetoJava_131d59d6"
+        },
+        {
+            "type": "java",
+            "name": "Launch EstruturaDeRepetição",
+            "request": "launch",
+            "mainClass": "EstruturaDeRepetição",
+            "projectName": "ProjetoJava_131d59d6"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExercicioControleFluxo2",
+            "request": "launch",
+            "mainClass": "ExercicioControleFluxo2",
+            "projectName": "ProjetoJava_131d59d6"
+        },
+        {
+            "type": "java",
+            "name": "Launch ControleFluxo3",
+            "request": "launch",
+            "mainClass": "ControleFluxo3",
+            "projectName": "ProjetoJava_131d59d6"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExercicioControleDeFluxo",
+            "request": "launch",
+            "mainClass": "ExercicioControleDeFluxo",
+            "projectName": "ProjetoJava_131d59d6"
+        },
+        {
+            "type": "java",
+            "name": "Launch ControleDeFLuxo2",
+            "request": "launch",
+            "mainClass": "ControleDeFLuxo2",
+            "projectName": "ProjetoJava_131d59d6"
+        },
+        {
+            "type": "java",
+            "name": "Launch ControleDeFluxoDois",
+            "request": "launch",
+            "mainClass": "ControleDeFluxoDois",
+            "projectName": "ProjetoJava_131d59d6"
+        },
+        {
+            "type": "java",
+            "name": "Launch ControleDeFluxo2",
+            "request": "launch",
+            "mainClass": "ControleDeFluxo2",
+            "projectName": "ProjetoJava_131d59d6"
+        },
+        {
+            "type": "java",
+            "name": "Launch ControleDeFluxo",
+            "request": "launch",
+            "mainClass": "ControleDeFluxo",
+            "projectName": "ProjetoJava_131d59d6"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperadoresDeAtribuicao",
+            "request": "launch",
+            "mainClass": "OperadoresDeAtribuicao",
+            "projectName": "ProjetoJava_131d59d6"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperadoresLogicos",
+            "request": "launch",
+            "mainClass": "OperadoresLogicos",
+            "projectName": "ProjetoJava_131d59d6"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperadoresDeComparacao",
+            "request": "launch",
+            "mainClass": "OperadoresDeComparacao",
+            "projectName": "ProjetoJava_131d59d6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Operadores",
+            "request": "launch",
+            "mainClass": "Operadores",
+            "projectName": "ProjetoJava_131d59d6"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExerciciosDois",
+            "request": "launch",
+            "mainClass": "ExerciciosDois",
+            "projectName": "ProjetoJava_131d59d6"
+        },
+        {
+            "type": "java",
+            "name": "Launch ImprimindoVariaveis",
+            "request": "launch",
+            "mainClass": "ImprimindoVariaveis",
+            "projectName": "ProjetoJava_131d59d6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Imprimindo",
+            "request": "launch",
+            "mainClass": "Imprimindo",
+            "projectName": "ProjetoJava_131d59d6"
+        },
+        {
+            "type": "java",
+            "name": "Launch ImpressaoVariaveis",
+            "request": "launch",
+            "mainClass": "ImpressaoVariaveis",
+            "projectName": "ProjetoJava_131d59d6"
+        },
+        {
+            "type": "java",
+            "name": "Launch ImprimintoVariaveis",
+            "request": "launch",
+            "mainClass": "ImprimintoVariaveis",
+            "projectName": "ProjetoJava_131d59d6"
+        },
+        {
+            "type": "java",
+            "name": "Launch OlaMundo",
+            "request": "launch",
+            "mainClass": "OlaMundo",
+            "projectName": "ProjetoJava_131d59d6"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperadoresAritimrticos",
+            "request": "launch",
+            "mainClass": "OperadoresAritimrticos",
+            "projectName": "ProjetoJava_131d59d6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Desafio",
+            "request": "launch",
+            "mainClass": "Desafio",
+            "projectName": "ProjetoJava_131d59d6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "ProjetoJava_131d59d6"
+        }
+    ]
+}
